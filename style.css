@@ -16,9 +16,21 @@ body{
     border-radius: 10px; 
 }
 .container>h1{
-    margin-left: 200px;
-    font-size: 40px;
-    /* color: rgb(255, 0, 85); */
+    width: 100%;
+    height: 60px;
+    box-sizing: border-box;
+    padding: 0px 200px;
+    font-size: 42px;
+    background-color: rgba(0, 0, 0, 0.582);
+    color: white;
+    border-radius: 10px;
+    /* border-top-left-radius: 10px;
+    border-top-right-radius: 10px; */
+}
+.degree{
+    width: 150px;
+    height: 180px;
+    padding-left: 50px;
 }
 .bi-cloud-sun-fill{
    font-size: 150px;
@@ -26,19 +38,21 @@ body{
 }
 .city{
     width: 100%;
+    height: 320px;
     /* background-color: rgba(127, 255, 212, 0.322); */
     color: white;
     display: flex;
     justify-content: space-between;
-    margin: 20px 0px;
+    margin: 7px 0px;
     padding: 0px 50px;
     box-sizing: border-box;
     border-radius: 10px;
 }
 .city>h1{
     width: 180px;
-    padding-top: 100px;
-    padding-left: 0px;
+    height: 150px;
+    padding-top: 80px;
+    padding-right: 50px;
     font-size: 50px;
 }
 
@@ -72,40 +86,44 @@ button{
 }
 .humidity{
     width: 100px;
+    height: 100px;
 }
 .humidity>h3{
     margin-left: 45px;
 }
 .wind{
     width: 100px;
+    height: 100px;
 }
 .temp{
     width: 100px;
+    height: 100px;
+}
+.temp>h3{
+    padding: 0px 20px;
 }
 .pressure{
     width: 100px;
+    height: 100px;
 }
 .bi-droplet-fill{
     color: rgb(132, 132, 255);
     font-size: 35px;
-    margin-left: 45px;
+    padding: 45px;
 }
 
 .bi-water{
-    margin-left: 30px;
+    padding: 30px;
     font-size: 30px;
     color: rgb(159, 243, 215);
 }
 .bi-thermometer-sun{
     padding-left: 45px;
-    font-size: 25px;
+    font-size: 28px;
     color: rgb(250, 133, 55);
 }
-.temp>h3{
-    margin-left: 25px;
-}
 .bi-tsunami{
-    margin-left: 30px;
+    padding: 28px;
     font-size: 25px;
     color: whitesmoke;
 }
