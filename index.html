@@ -1,0 +1,56 @@
+<!DOCTYPE html>container
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+    <div class="container">
+        <h1>WEATHER APP</h1>
+        <div class="search">
+            <input type="text" placeholder="Enter place" id="city">
+            <button onclick="api()"><i class="bi bi-search"></i></button>
+        </div>
+        
+        <div class="city">
+            <div class="degree">
+                <h1><i class="bi bi-cloud-sun-fill"></i></h1>
+                <h2 id="degrees">°C°F Degrees</h2>
+            </div><hr>
+            <h1 id="cityName">chittoor</h1>
+        </div>
+
+
+        <div class="weather">
+            <div class="humidity">
+                <i class="bi bi-droplet-fill"></i>
+                <h3 id="humidity">0%</h3>
+            </div><hr>
+            <div class="wind">
+                <i class="bi bi-water"></i>
+                <h3 id="wind">0.00km/h</h3>
+            </div><hr>
+            <div class="temp">
+                <i class="bi bi-thermometer-sun" id=""></i>
+                <h3 id="tempMin">000.00 t/max</h3>
+            </div><hr>
+            <div class="pressure">
+                <i class="bi bi-tsunami"></i>
+                <h3 id="pressure">0 pressure</h3>
+            </div>
+
+
+        </div>
+
+    </div>
+
+
+
+
+    <script src="app.js"></script>
+</body>
+</html>
